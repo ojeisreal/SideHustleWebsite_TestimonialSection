@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.testimonials{
+    background-image: url(Background_image2.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: rgb(3, 84, 173);
+    transition: 2000ms;
+}
+
+.background{
+    background-color: black;
+    width: 50%;
+}
+
+@font-face {
+    font-family: GD_Boing_Bold;
+    src: url(GD-Boing-Bold.ttf);
+}
+@font-face {
+    font-family: nunito_light;
+    src: url(NunitoSans-Light.ttf);
+}
+@font-face {
+    font-family: nunito_regular;
+    src: url(NunitoSans-Regular.ttf);
+}
+@font-face {
+    font-family: nunito_extrabold;
+    src: url(NunitoSans-ExtraBold.ttf);
+}
+
+h1{
+    font-family: GD_Boing_Bold;
+    font-size: 42px;
+    line-height: 64px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+.message{
+    font-family: nunito_regular;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #fff;
+    width: 45%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.container{
+    background-color: #fff;
+    width: 65%;
+    margin: auto;
+    border-radius: 40px 40px 40px 0px;
+}
+
+.slide{
+    display: grid;
+    gap: 100px;
+    width: 100%;
+    
+}
+.comments p{
+    font-family: nunito_regular;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 300;
+    color: #6c757d;
+}
+
+.name{
+    font-family: nunito_extrabold;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 200;
+    color: #343a40;
+}
+
+.cohort{
+    font-family: nunito_light;
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 100;
+    color: #6c757d;
+}
+
+.left_arrow{
+    background-image: url(arrow-left.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:60px;
+    width: 60px;
+    position: absolute;
+    cursor: pointer;
+    top: 60%;
+    left: 100px;
+}
+
+.right_arrow{
+    background-image: url(arrow-right.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    cursor: pointer;
+    top: 60%;
+    right: 100px;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+}
+
+.profile img{
+    height: 60px;
+}
+
+.credentials{
+    display: grid;
+    gap: 3px;
+    padding-left: 20px;
+}
+
+.bar{
+    width: 7px;
+    height: 7px;
+    background-color: #fff;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+.slide_bar{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 100px;
+}
+
+.active{
+    width: 15px;
+}
+
+.subcontainer{
+    padding: 50px 100px;
+}
+
+.subcontainer1{
+    width: 100%;
+    overflow: hidden;
+}
+
+.subcontainer2{
+    display: flex;
+    position: relative;
+    width: 2000%;
+    transition: 1000ms ease;
+}
